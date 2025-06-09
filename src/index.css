@@ -1,0 +1,12 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#f8f5f0] text-gray-800 font-sans;
+}
+
+textarea::placeholder {
+  color: #aaa;
+}
